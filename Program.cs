@@ -26,7 +26,7 @@
             {
                 if (stringParts[i].StartsWith("["))
                 {
-                    string channel = stringParts[i].TrimStart('[');  // Remove the leading '['
+                    string channel = stringParts[i].TrimStart('[');
                     OutputMessage += ActiveChannel.Contains(channel) ? $"{channel}, " : "";
                 }
             }
