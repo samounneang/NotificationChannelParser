@@ -18,9 +18,10 @@
         static string ParseNotificationChannel(string InputMessage)
         {
             string OutputMessage = string.Empty;
-            string ActiveChannel = "BE,FE,QA,Urgent";
+            string[] ActiveChannel = { "BE", "FE", "QA", "Urgent" };
 
             string[] stringParts = InputMessage.Split(']');
+            
 
             for (int i = 0; i < stringParts.Length - 1; i++)
             {
