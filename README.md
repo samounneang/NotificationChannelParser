@@ -11,5 +11,6 @@
 
 ## Run Project
   ```bash
+  cd NotificationChannelParser
   dotnet run
   ```
